@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>traveler</title>
+</head>
+
+<body>
+
+    <nav class="contianer">
+        <div class="logo">ADVENTURE</div>
+        <ul class="menu-items">
+            <li><a href="#" class="h" style="color:#fc036b;">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="btn">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" class="menu-btn">
+    </nav>
+
+    <div class="cover">
+        <header>
+            <div class="header-container">
+                <h2 class="h2-h">Explore the colorful world</h2>
+                <div class="line"></div>
+                <h1 class="h1-h">A Wonderful Gift</h1>
+                <a class="btn" href="#">Learn More</a>
+            </div>
+        </header>
+    </div>
+
+    <!--events section -->
+    <div class="events-title">
+        <h1>Upcoming Events</h1>
+        <div class="line2"></div>
+    </div>
+    <section class="first-section">
+
+        <div class="section-left-body">
+            <img src="img/img1.png" class="img-left">
+            <h4 class="h-left">Everest Camp Trek</h4>
+            <p class="p-left">
+                this is some text to text the show
+                blabla bla bla bla
+            </p>
+            <a class="btn left-btn" href="#">Learn More</a>
+        </div>
+
+
+        <div class="section-left-body">
+            <img src="img/img2.png" class="img-left">
+            <h4 class="h-left">Walking Holidays</h4>
+            <p class="p-left">
+                this is some text to text the show
+                blabla bla bla bla
+            </p>
+            <a class="btn left-btn" href="#">Learn More</a>
+        </div>
+    </section>
+
+
+    <section class="explore">
+       
+            <img src="img/bg2.png">
+            <!--<div class="line3"></div>-->
+            <div class="explore-content">
+                <h2>Explore The World</h2>
+                <p>this is some text to text the show
+                    blabla bla bla bla
+                    this is some text to text the show
+                    blabla bla bla bla
+                </p>
+                <a class="btn" href="#">Learn More</a>
+            
+        </div>
+
+
+    </section>
+    
+    
+    
+    <section class="upcoming-tours">
+        
+
+       <div class="col">
+            <h1>Upcoming Tours &amp; Destination </h1>
+            <p>
+                this is some text to text the show
+                blabla bla bla bla
+                this is some text to text the show
+                blabla bla bla bla
+                this is some text to text the show
+                blabla bla bla bla
+                this is some text to text the show
+                blabla bla bla bla
+            </p>
+            <a class="btn" href="#">Learn More</a>
+        </div>
+        
+        <div class="img-cont">
+            <img src="img/img3.png">
+            <img src="img/img4.png">
+            <img src="img/img5.png">
+            <img src="img/img6.png">
+        </div>
+    </section>
+        
+
+    <script>
+        let menu_btn = document.getElementsByClassName("menu-btn");
+        let navelinks = document.getElementsByClassName("menu-items");
+        console.log(navelinks);
+
+        menu_btn.item(0).addEventListener("click", () => {
+
+            navelinks.item(0).classList.toggle("mobile-menu");
+        })
+
+    </script>
+
+
+</body>
+
+</html>
